@@ -9,11 +9,12 @@
 
         {{ shopify_tokens }}
     </head>
-    <body class="font-sans leading-normal bg-gray-200 text-grey-800">
+    <body class="font-sans leading-normal bg-gray-100 text-grey-800">
 
         {{ partial:layout/header }}
+        {{ partial:components/banner }}
 
-        <div class="flex items-center justify-center h-screen px-2 mx-auto">
+        <div class="h-screen pt-10">
             {{ template_content }}
         </div>
 

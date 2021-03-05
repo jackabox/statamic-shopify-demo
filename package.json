@@ -20,6 +20,8 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
+        "@tailwindcss/aspect-ratio": "^0.2.0",
+        "@tailwindcss/typography": "^0.4.0",
         "shopify-buy": "^2.11.0"
     }
 }

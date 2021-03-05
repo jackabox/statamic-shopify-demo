@@ -1,25 +1,40 @@
 
 <div class="container max-w-4xl mx-auto">
-    <a href="/" class="block mb-3 text-sm">Back to all products</a>
+    <a href="/products" class="flex mb-10">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 mr-2">
+            <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+        </svg>
 
-    <div class="grid grid-cols-2 gap-5">
+        Back to all products
+    </a>
+
+    <div class="grid grid-cols-2 gap-10">
         <div class="grid-cell">
-            {{ featured_image }}
-            <img src="{{ url }}" alt="{{ alt }}">
-            {{ /featured_image }}
+            <picture class="relative block aspect-w-2 aspect-h-3">
+                {{ featured_image }}
+                    <img class="absolute object-cover w-full h-full" src="{{ url }}" alt="{{ alt }}">
+                {{ /featured_image }}
+            </picture>
+
         </div>
 
         <div class="grid-cell">
-            <h1 class="mb-4 text-2xl font-bold">{{ title }}</h1>
-            <div class="mb-4 rte">{{ content }}</div>
+            <h1 class="mb-4 text-5xl font-bold leading-tight tracking-tighter">{{ title }}</h1>
+
+            <div class="mb-8 prose">{{ content }}</div>
 
             <form action="" name="" id="ss-product-add-form">
                 <input type="hidden" name="product_id" id="ss-product-id" value="{{ product_id }}" />
 
-                {{ product_variants :product="slug" currency="£" class="block w-full px-2 py-3 mb-2 border" }}
+                <div class="flex mb-3">
+                    {{ product_variants :product="slug" currency="£" class="block w-1/2 px-2 py-3 border" }}
 
-                <input type="number" min="1" value="1" id="ss-product-qty" class="w-20 p-2 border" />
-                <button type="submit" class="px-4 py-2 text-white bg-green-500 rounded">Add to Cart</button>
+                    <input type="number" min="1" value="1" id="ss-product-qty" class="w-20 p-2 ml-4 border" />
+                </div>
+
+
+
+                <button type="submit" class="px-4 py-2 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700">Add to Cart</button>
             </form>
         </div>
     </div>

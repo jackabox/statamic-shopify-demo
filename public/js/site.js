@@ -10246,9 +10246,9 @@ var bannerMessage = function bannerMessage(elements) {
   banner.classList.remove('hidden'); // Set type
 
   if (type === 'error') {
-    banner.classList.add('bg-red-300');
+    banner.classList.add('bg-red-400');
   } else {
-    banner.classList.add('bg-green-300');
+    banner.classList.add('bg-green-400');
   } // Append elements
 
 
@@ -10333,7 +10333,7 @@ var handleProductFormSubmit = function handleProductFormSubmit(form) {
     quantity: quantity != null ? parseInt(quantity.value) : 1
   }];
   _client__WEBPACK_IMPORTED_MODULE_0__["default"].checkout.addLineItems(_checkout__WEBPACK_IMPORTED_MODULE_3__["checkoutId"], lineItemsToAdd).then(function (checkout) {
-    var elements = Object(_helpers__WEBPACK_IMPORTED_MODULE_1__["htmlToElements"])('<p><span class="mr-2">Product added to the basket.</span><a href="/cart">Go to cart</a></p>');
+    var elements = Object(_helpers__WEBPACK_IMPORTED_MODULE_1__["htmlToElements"])('<div class="text-center"><span class="mr-4">Product added to the basket.</span><a href="/cart" class="inline-flex items-center"><span>Go to cart</span> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="ml-2 w-4"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></a></div>');
     Object(_helpers__WEBPACK_IMPORTED_MODULE_1__["bannerMessage"])(elements, true);
     Object(_cart__WEBPACK_IMPORTED_MODULE_2__["setCartCount"])(checkout.lineItems);
   })["catch"](function (err) {// Handle Errors here.

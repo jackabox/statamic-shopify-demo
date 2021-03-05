@@ -25,9 +25,9 @@ export const bannerMessage = (elements, type = 'success', timeout = 6000) => {
 
   // Set type
   if (type === 'error') {
-    banner.classList.add('bg-red-300')
+    banner.classList.add('bg-red-400')
   } else {
-    banner.classList.add('bg-green-300')
+    banner.classList.add('bg-green-400')
   }
 
   // Append elements
