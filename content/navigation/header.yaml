@@ -1,0 +1,14 @@
+title: Header
+tree:
+  -
+    title: Home
+    url: /
+  -
+    title: Products
+    url: products
+  -
+    title: 'Home Furnishings'
+    url: /category/home-furnishings
+  -
+    title: Docs
+    url: 'https://statamic-shopify.jackwhiting.co.uk'

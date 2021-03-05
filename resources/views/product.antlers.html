@@ -1,0 +1,27 @@
+
+<div class="container max-w-4xl mx-auto">
+    <a href="/" class="block mb-3 text-sm">Back to all products</a>
+
+    <div class="grid grid-cols-2 gap-5">
+        <div class="grid-cell">
+            {{ featured_image }}
+            <img src="{{ url }}" alt="{{ alt }}">
+            {{ /featured_image }}
+        </div>
+
+        <div class="grid-cell">
+            <h1 class="mb-4 text-2xl font-bold">{{ title }}</h1>
+            <div class="mb-4 rte">{{ content }}</div>
+
+            <form action="" name="" id="ss-product-add-form">
+                <input type="hidden" name="product_id" id="ss-product-id" value="{{ product_id }}" />
+
+                {{ product_variants :product="slug" currency="£" class="block w-full px-2 py-3 mb-2 border" }}
+
+                <input type="number" min="1" value="1" id="ss-product-qty" class="w-20 p-2 border" />
+                <button type="submit" class="px-4 py-2 text-white bg-green-500 rounded">Add to Cart</button>
+            </form>
+        </div>
+    </div>
+</div>
+
