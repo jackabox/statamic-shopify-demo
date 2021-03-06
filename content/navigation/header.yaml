@@ -5,7 +5,7 @@ tree:
     url: /
   -
     title: Vendor
-    url: /products/vendor/company-123
+    url: /vendor/company-123
   -
     title: Docs
     url: 'https://statamic-shopify.jackwhiting.co.uk'
