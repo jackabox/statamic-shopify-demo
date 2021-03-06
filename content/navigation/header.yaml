@@ -1,14 +1,11 @@
 title: Header
 tree:
   -
-    title: Home
+    title: Shop
     url: /
   -
-    title: Products
-    url: products
-  -
-    title: 'Home Furnishings'
-    url: /category/home-furnishings
+    title: Vendor
+    url: /products/vendor/company-123
   -
     title: Docs
     url: 'https://statamic-shopify.jackwhiting.co.uk'

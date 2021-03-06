@@ -2,11 +2,11 @@
 
     <h1 class="mb-10 text-5xl font-bold leading-tight tracking-tighter">{{ title }}</h1>
 
-    {{ collection:products as="products" limit="9" paginate="true" }}
+    {{ entries as="products" limit="9" paginate="true" }}
     <div class="grid grid-cols-3 gap-5">
         {{ products }}
             <div class="mb-4 grid-cell">
-                <div class="overflow-hidden bg-white shadow sm:rounded-xl">
+                <div class="overflow-hidden bg-white shadow-lg sm:rounded-lg">
                     {{ featured_image }}
                         <picture class="relative block aspect-w-3 aspect-h-2">
                             <img src="{{ url }}" alt="{{ alt }}" class="absolute object-cover">
@@ -56,5 +56,5 @@
     </div>
     {{ /paginate }}
 
-    {{ /collection:products }}
+    {{ /entries }}
 </div>

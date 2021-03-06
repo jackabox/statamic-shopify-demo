@@ -11,6 +11,7 @@
         "jackabox/statamic-shopify": "^0.3.0",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
+        "spatie/laravel-ray": "^1.14",
         "statamic/cms": "3.0.*"
     },
     "require-dev": {
