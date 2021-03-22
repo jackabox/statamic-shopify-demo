@@ -1268,16 +1268,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.7.0",
+            "version": "1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "53330f47520498c0ae1f61f7e2c90f55690c06a3"
+                "reference": "35ea11d335fd638b5882ff1725228b3d35496ab1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/53330f47520498c0ae1f61f7e2c90f55690c06a3",
-                "reference": "53330f47520498c0ae1f61f7e2c90f55690c06a3",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/35ea11d335fd638b5882ff1725228b3d35496ab1",
+                "reference": "35ea11d335fd638b5882ff1725228b3d35496ab1",
                 "shasum": ""
             },
             "require": {
@@ -1337,9 +1337,9 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/1.7.0"
+                "source": "https://github.com/guzzle/psr7/tree/1.8.1"
             },
-            "time": "2020-09-30T07:37:11+00:00"
+            "time": "2021-03-21T16:25:00+00:00"
         },
         {
             "name": "intervention/image",
@@ -1417,16 +1417,16 @@
         },
         {
             "name": "jackabox/statamic-shopify",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jackabox/statamic-shopify.git",
-                "reference": "52275ada942d8f5ddd014c9403f23fabcdf1bdb0"
+                "reference": "da0dd1edaa441bd0a330375da1d0a0c4bee7a00f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jackabox/statamic-shopify/zipball/52275ada942d8f5ddd014c9403f23fabcdf1bdb0",
-                "reference": "52275ada942d8f5ddd014c9403f23fabcdf1bdb0",
+                "url": "https://api.github.com/repos/jackabox/statamic-shopify/zipball/da0dd1edaa441bd0a330375da1d0a0c4bee7a00f",
+                "reference": "da0dd1edaa441bd0a330375da1d0a0c4bee7a00f",
                 "shasum": ""
             },
             "require": {
@@ -1465,7 +1465,7 @@
             "support": {
                 "email": "hi@jackwhiting.co.uk",
                 "issues": "https://github.com/jackabox/statamic-shopify/issues",
-                "source": "https://github.com/jackabox/statamic-shopify/tree/1.1.1"
+                "source": "https://github.com/jackabox/statamic-shopify/tree/1.1.2"
             },
             "funding": [
                 {
@@ -1477,7 +1477,7 @@
                     "type": "ko_fi"
                 }
             ],
-            "time": "2021-03-15T22:20:01+00:00"
+            "time": "2021-03-17T17:41:29+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -2685,16 +2685,16 @@
         },
         {
             "name": "phpclassic/php-shopify",
-            "version": "v1.1.16",
+            "version": "v1.1.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpclassic/php-shopify.git",
-                "reference": "1d1c3e83a758ccd603a5b672ec6cd973a0928ac4"
+                "reference": "05eb12398828545071711eb9c746f9d4d7095980"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpclassic/php-shopify/zipball/1d1c3e83a758ccd603a5b672ec6cd973a0928ac4",
-                "reference": "1d1c3e83a758ccd603a5b672ec6cd973a0928ac4",
+                "url": "https://api.github.com/repos/phpclassic/php-shopify/zipball/05eb12398828545071711eb9c746f9d4d7095980",
+                "reference": "05eb12398828545071711eb9c746f9d4d7095980",
                 "shasum": ""
             },
             "require": {
@@ -2730,9 +2730,9 @@
             ],
             "support": {
                 "issues": "https://github.com/phpclassic/php-shopify/issues",
-                "source": "https://github.com/phpclassic/php-shopify/tree/v1.1.16"
+                "source": "https://github.com/phpclassic/php-shopify/tree/v1.1.18"
             },
-            "time": "2020-12-17T08:07:12+00:00"
+            "time": "2021-03-21T15:18:24+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -3929,16 +3929,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.0.47",
+            "version": "v3.0.48",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "18e4a051fa88cb26bea3e23af6806788ad98c7f3"
+                "reference": "e0c030263af05a74208e31fd1420f9631456e4d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/18e4a051fa88cb26bea3e23af6806788ad98c7f3",
-                "reference": "18e4a051fa88cb26bea3e23af6806788ad98c7f3",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/e0c030263af05a74208e31fd1420f9631456e4d8",
+                "reference": "e0c030263af05a74208e31fd1420f9631456e4d8",
                 "shasum": ""
             },
             "require": {
@@ -4005,7 +4005,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.0.47"
+                "source": "https://github.com/statamic/cms/tree/v3.0.48"
             },
             "funding": [
                 {
@@ -4013,7 +4013,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-15T17:49:17+00:00"
+            "time": "2021-03-22T14:59:42+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -7598,16 +7598,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.10.0",
+            "version": "2.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "6ecda5217bf048088b891f7403b262906be5a957"
+                "reference": "f6e14679f948d8a5cfb866fa7065a30c66bd64d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/6ecda5217bf048088b891f7403b262906be5a957",
-                "reference": "6ecda5217bf048088b891f7403b262906be5a957",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/f6e14679f948d8a5cfb866fa7065a30c66bd64d3",
+                "reference": "f6e14679f948d8a5cfb866fa7065a30c66bd64d3",
                 "shasum": ""
             },
             "require": {
@@ -7657,7 +7657,7 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/2.10.0"
+                "source": "https://github.com/filp/whoops/tree/2.11.0"
             },
             "funding": [
                 {
@@ -7665,7 +7665,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-16T12:00:00+00:00"
+            "time": "2021-03-19T12:00:00+00:00"
         },
         {
             "name": "fzaninotto/faker",
