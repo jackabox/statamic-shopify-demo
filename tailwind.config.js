@@ -8,7 +8,13 @@ module.exports = {
     },
     important: true,
     theme: {
-      extend: {},
+      extend: {
+        colors: {
+          brand: {
+              yellow: 'yellow'
+          }
+        }
+      },
     },
     variants: {},
     plugins: [

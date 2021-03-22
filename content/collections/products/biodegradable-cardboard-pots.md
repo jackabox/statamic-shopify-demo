@@ -8,6 +8,6 @@ tags: Plants
 featured_image: Shopify/potted-seeds_925x_c99317c0-830c-4b0d-8745-b1b1a1c6876e.jpg
 gallery:
   - Shopify/potted-seeds_925x_c99317c0-830c-4b0d-8745-b1b1a1c6876e.jpg
-id: bd3f4727-a058-47b2-96ba-c42df219686d
+id: cab591cd-c1cb-4eda-86cf-b0e33288b226
 ---
 <p>Biodegradable outdoor cardboard pots</p>

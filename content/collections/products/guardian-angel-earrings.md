@@ -9,6 +9,6 @@ featured_image: Shopify/guardian-angel-earrings_925x_997913ac-b599-41fd-83a9-e23
 gallery:
   - Shopify/guardian-angel-earrings_925x_997913ac-b599-41fd-83a9-e2345d0108b4.jpg
   - Shopify/guardian-angel-earring-closeup_925x_d75ad42f-2f91-4b8c-a20f-a270c09b29b7.jpg
-id: 9a64fceb-9c6d-4500-9903-85717cd0ef8a
+id: 54a24321-3843-499c-8005-49526cc42986
 ---
 <p>Sterling silver guardian angel earrings with diamond gemstones.</p>

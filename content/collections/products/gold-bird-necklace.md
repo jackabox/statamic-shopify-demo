@@ -8,6 +8,6 @@ tags: Gold
 featured_image: Shopify/gold-bird-necklace_925x_bb4b339f-0f54-49cb-9e35-31f4e8e3afe5.jpg
 gallery:
   - Shopify/gold-bird-necklace_925x_bb4b339f-0f54-49cb-9e35-31f4e8e3afe5.jpg
-id: e37ccfd9-f5a1-4cfa-89b9-fb55984859a3
+id: 72444a2d-eb6a-46e7-b2de-936ba56baf13
 ---
 <p>14k Gold delicate necklace, with bird between two chains.</p>

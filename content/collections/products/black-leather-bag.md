@@ -7,6 +7,6 @@ tags: Women
 featured_image: Shopify/black-bag-over-the-shoulder_925x_89bd7ec6-421f-471b-ad33-c3942d9f8e0a.jpg
 gallery:
   - Shopify/black-bag-over-the-shoulder_925x_89bd7ec6-421f-471b-ad33-c3942d9f8e0a.jpg
-id: 154b1894-c911-4a77-b893-15f20be40ba7
+id: 9d90b81e-d57e-4a6a-885b-33c31a9f327c
 ---
 <p>Womens black leather bag, with ample space. Can be worn over the shoulder, or remove straps to carry in your hand.</p>

@@ -8,6 +8,6 @@ tags: Wood
 featured_image: Shopify/condominium-interior-livingroom_925x_354e7242-7fa7-4513-9319-fd2e68c2deb2.jpg
 gallery:
   - Shopify/condominium-interior-livingroom_925x_354e7242-7fa7-4513-9319-fd2e68c2deb2.jpg
-id: 8091719f-8f83-407f-9023-7e9015e36584
+id: 9210b776-dbc8-430b-8e34-5e0b54122095
 ---
 <p>Comfortable cream sofa with wooden base</p>

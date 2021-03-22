@@ -8,6 +8,6 @@ tags: Turquoise
 featured_image: Shopify/stylish-summer-necklace_925x_985abe47-6297-4740-af80-5e000045215a.jpg
 gallery:
   - Shopify/stylish-summer-necklace_925x_985abe47-6297-4740-af80-5e000045215a.jpg
-id: 38a68f41-3465-465a-a712-a315f908dad8
+id: 9d8da3c5-056f-43d7-bea1-ad77d2329380
 ---
 <p>Double chained gold boho necklace with turquoise pendant.</p>

@@ -7,6 +7,6 @@ tags: Women
 featured_image: Shopify/urban-fashion_925x_2225ce55-d547-4abc-a71d-578ac7f794a5.jpg
 gallery:
   - Shopify/urban-fashion_925x_2225ce55-d547-4abc-a71d-578ac7f794a5.jpg
-id: 85fb217f-de4b-47ef-80ea-fe60771caffe
+id: 9933df54-9177-4b9c-a45f-d33aed263391
 ---
 <p>Loose fitting olive green jacket with buttons and large pockets. Multicoloured pattern on the front of the shoulders.</p>

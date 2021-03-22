@@ -7,6 +7,6 @@ tags: Women
 featured_image: Shopify/smiling-woman-on-snowy-afternoon_925x_e419a3a0-2fa8-4502-90bf-e2d8ce7bc359.jpg
 gallery:
   - Shopify/smiling-woman-on-snowy-afternoon_925x_e419a3a0-2fa8-4502-90bf-e2d8ce7bc359.jpg
-id: 0b977520-2235-45a2-b74b-100f7171accf
+id: 53cab43b-f1ad-46d7-8516-3848148d7fab
 ---
 <p>Thick black winter jacket, with soft fleece lining. Perfect for those cold weather days.</p>

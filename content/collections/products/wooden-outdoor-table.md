@@ -8,6 +8,6 @@ tags: Wood
 featured_image: Shopify/cafe-patio_925x_44e223a8-32b4-4cce-8de2-39cf09bebd66.jpg
 gallery:
   - Shopify/cafe-patio_925x_44e223a8-32b4-4cce-8de2-39cf09bebd66.jpg
-id: 352aecc2-885d-4f2d-9584-a92d62ba75f7
+id: 576097b1-0374-452c-9ac3-57db3cd2bd2f
 ---
 <p>Chic wooden outdoor garden table</p>

@@ -11,7 +11,7 @@ gallery:
   - Shopify/gemstone-necklace_925x_72c6bc8c-ac35-4594-97c3-9d47d92217e4.jpg
   - Shopify/womens-necklace_925x_10e4a8bd-ef1c-4007-8966-3132a1c218ff.jpg
   - Shopify/purple-gemstone-necklace_925x_6b8f5057-f8ce-4401-add9-316a65d2feda.jpg
-id: 9e278978-526d-4b2c-824a-904291e86eb4
+id: ee1134f5-293f-4e42-80e7-17526460a195
 ---
 <p>Gemstone pendant, housed in sterling silver, with sterling silver chain.</p>
 <ul>

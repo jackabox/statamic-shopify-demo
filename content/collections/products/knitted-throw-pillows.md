@@ -8,6 +8,6 @@ tags: Pillows
 featured_image: Shopify/yellow-sofa-with-throw-pillows_925x_7a4d22f1-5ca8-47ae-87f4-77c088eda650.jpg
 gallery:
   - Shopify/yellow-sofa-with-throw-pillows_925x_7a4d22f1-5ca8-47ae-87f4-77c088eda650.jpg
-id: 3fb845c2-8810-40b3-9eef-bfbd4e08fd09
+id: b80903a1-ada0-4bd4-99ac-28c0bdbe1099
 ---
 <p>Homemade knitted throw pillows in a variety of colors</p>

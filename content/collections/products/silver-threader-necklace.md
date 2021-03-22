@@ -9,6 +9,6 @@ featured_image: Shopify/silver-threader-necklace_925x_a8d91e6d-80dd-4e95-aa73-03
 gallery:
   - Shopify/silver-threader-necklace_925x_a8d91e6d-80dd-4e95-aa73-03851a7b9b51.jpg
   - Shopify/threader-necklace-closeup_925x_367a6f76-df55-4cb5-b9c1-39f5d711c58f.jpg
-id: 24a789b2-4a51-425c-9b6d-0532e02fec34
+id: 280d0ac2-68d7-42cb-88d9-52d67d32269a
 ---
 <p>Sterling silver chain thread through circle necklace.</p>

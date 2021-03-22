@@ -8,6 +8,6 @@ tags: Silver
 featured_image: Shopify/galaxy-earrings_925x_bc851152-b558-41c6-a0b0-08c1773d0689.jpg
 gallery:
   - Shopify/galaxy-earrings_925x_bc851152-b558-41c6-a0b0-08c1773d0689.jpg
-id: c500f242-ad07-48ea-96b9-8300781c3ad0
+id: f23b9544-6730-46a7-914f-cf20330482e7
 ---
 <p>One set of galaxy earrings, with sterling silver clasps.</p>

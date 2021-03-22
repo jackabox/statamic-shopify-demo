@@ -7,6 +7,6 @@ tags: Women
 featured_image: Shopify/leather-jacket-and-tea_925x_9bbb51ae-34ac-4d90-a67c-dc6c25437eea.jpg
 gallery:
   - Shopify/leather-jacket-and-tea_925x_9bbb51ae-34ac-4d90-a67c-dc6c25437eea.jpg
-id: 8ae11f84-6433-4251-ac43-469cb63baf62
+id: 52d24aaf-3d7a-42e6-9b03-aac82ef3aa17
 ---
 <p>Womans zipped leather jacket. Adjustable belt for a comfortable fit, complete with shoulder pads and front zip pocket.</p>

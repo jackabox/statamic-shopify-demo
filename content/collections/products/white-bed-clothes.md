@@ -8,6 +8,6 @@ tags: Bed
 featured_image: Shopify/bright-hotel-room-bed_925x_c9e5bc91-19a0-4985-b50c-0d56a714a9e7.jpg
 gallery:
   - Shopify/bright-hotel-room-bed_925x_c9e5bc91-19a0-4985-b50c-0d56a714a9e7.jpg
-id: df4471fc-9749-4804-ad98-d3e803a8757d
+id: d9b575f0-b793-4b1b-9e67-f9869c5f8722
 ---
 <p>Sleek white bed clothes</p>

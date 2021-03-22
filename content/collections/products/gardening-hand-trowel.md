@@ -8,6 +8,6 @@ tags: Plants
 featured_image: Shopify/spring-gardening-set-up_925x_52bba4f3-99a7-49ae-998b-1134ff9647e0.jpg
 gallery:
   - Shopify/spring-gardening-set-up_925x_52bba4f3-99a7-49ae-998b-1134ff9647e0.jpg
-id: 83a2962c-48cd-4057-9af3-823e8f854778
+id: bf5c9b20-7f69-41c7-aead-94f2571ac4cc
 ---
 <p>Metal gardening hand trowel with wooden handle</p>

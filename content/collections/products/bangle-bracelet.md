@@ -8,6 +8,6 @@ tags: Gold
 featured_image: Shopify/bangle-bracelet-with-jewels_925x_e01e0775-2587-4bea-910f-95a48c8466fc.jpg
 gallery:
   - Shopify/bangle-bracelet-with-jewels_925x_e01e0775-2587-4bea-910f-95a48c8466fc.jpg
-id: 13258771-22ae-4d38-a5f7-414ad8be92ca
+id: 45fcf4b5-f3f0-4ff2-b992-7504d016622f
 ---
 <p>Gold bangle bracelet with studded jewels.</p>

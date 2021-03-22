@@ -8,6 +8,6 @@ tags: Wood
 featured_image: Shopify/house-plant-on-wooden-slat-wall_925x_7c7fbe4c-cf67-4b49-951e-fa6a5cdf2a82.jpg
 gallery:
   - Shopify/house-plant-on-wooden-slat-wall_925x_7c7fbe4c-cf67-4b49-951e-fa6a5cdf2a82.jpg
-id: 428a1084-5d4b-4733-90f3-7864301729c7
+id: 6191553f-4a33-4925-abda-bb4b8a254189
 ---
 <p>Wooden outdoor fencing slats</p>

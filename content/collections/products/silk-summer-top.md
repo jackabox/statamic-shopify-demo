@@ -7,6 +7,6 @@ tags: Women
 featured_image: Shopify/young-hip-woman-at-carnival_925x_47b02620-4e0e-465e-afb5-614eeacd8bd7.jpg
 gallery:
   - Shopify/young-hip-woman-at-carnival_925x_47b02620-4e0e-465e-afb5-614eeacd8bd7.jpg
-id: 438bc263-2caa-4f3d-a81f-e2fe2e52ba09
+id: 30debaac-2389-4466-bab3-b3d10af8df08
 ---
 <p>Silk womens top with short sleeves and number pattern.</p>

@@ -8,6 +8,6 @@ tags: Candle
 featured_image: Shopify/diy-organic-candle_925x_233c2061-325f-49b6-a21a-ccc019459fdf.jpg
 gallery:
   - Shopify/diy-organic-candle_925x_233c2061-325f-49b6-a21a-ccc019459fdf.jpg
-id: a9aa2cc2-4d6b-45bb-bd1c-8acf5e90b540
+id: 312435b7-4f18-40a2-b693-0cfb47643203
 ---
 <p>Vanilla scent candle in jar</p>

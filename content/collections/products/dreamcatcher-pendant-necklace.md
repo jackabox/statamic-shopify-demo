@@ -9,6 +9,6 @@ featured_image: Shopify/dreamcatcher-pendant-necklace_925x_0218e918-01f4-46af-95
 gallery:
   - Shopify/dreamcatcher-pendant-necklace_925x_0218e918-01f4-46af-9597-464c154dd37b.jpg
   - Shopify/gold-dream-catcher-necklace_925x_6c9464b6-02bf-4d53-ba31-2aae56d20e34.jpg
-id: a32c4008-0e7d-482c-929f-485683d100e6
+id: 35d0c704-03b6-4cf7-ae57-69de2ec115e5
 ---
 <p>Turquoise beaded dream catcher necklace. Silver feathers adorn this beautiful dream catcher, which move and twinkle as you walk.</p>

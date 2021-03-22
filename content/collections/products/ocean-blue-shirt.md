@@ -7,6 +7,6 @@ tags: Men
 featured_image: Shopify/young-man-in-bright-fashion_925x_24defd30-a323-4fc6-8b31-ae11e412f4ce.jpg
 gallery:
   - Shopify/young-man-in-bright-fashion_925x_24defd30-a323-4fc6-8b31-ae11e412f4ce.jpg
-id: bfa11437-818a-4265-8fd0-278e5560621a
+id: f92d42b0-c498-45be-9340-56f4076b3b1b
 ---
 <p>Ocean blue cotton shirt with a narrow collar and buttons down the front and long sleeves. Comfortable fit and tiled kalidoscope patterns.</p>

@@ -8,6 +8,6 @@ tags: Pillows
 featured_image: Shopify/bedroom-bed-with-brown-throw-pillows_925x_307b7d33-1fb9-4c6a-95f5-5d5ea1dda9f7.jpg
 gallery:
   - Shopify/bedroom-bed-with-brown-throw-pillows_925x_307b7d33-1fb9-4c6a-95f5-5d5ea1dda9f7.jpg
-id: d6889a5f-1ce1-42ed-9cfa-5cd311a4488d
+id: 0b795705-1c42-43f4-9e92-6a3228415394
 ---
 <p>Stylish brown throw pillows</p>
