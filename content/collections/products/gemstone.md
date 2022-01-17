@@ -1,17 +1,28 @@
 ---
-product_id: 6559459737788
-published_at: '2021-03-05 22:14:09'
+id: 5536df30-5c24-47e6-b512-1e3643efc1cf
+blueprint: product
+product_id: 7371943805116
+published: true
+published_at: '2022-01-17 17:32:57'
 title: 'Gemstone Necklace'
-vendor: 'Sterling Ltd'
-type: Necklace
-tags: Turquoise
-featured_image: Shopify/blue-gemstone-pendant_925x_6247c817-a269-4898-b212-005c72f78ed6.jpg
+vendor:
+  - sterling-ltd
+type:
+  - necklace
+tags:
+  - blue
+  - gem
+  - purple
+  - silver
+  - turquoise
+options:
+  option1: Colour
+featured_image: shopify/blue-gemstone-pendant_925x_552832f1-1be8-472c-9ac4-37a9c925954d.jpg
 gallery:
-  - Shopify/blue-gemstone-pendant_925x_6247c817-a269-4898-b212-005c72f78ed6.jpg
-  - Shopify/gemstone-necklace_925x_72c6bc8c-ac35-4594-97c3-9d47d92217e4.jpg
-  - Shopify/womens-necklace_925x_10e4a8bd-ef1c-4007-8966-3132a1c218ff.jpg
-  - Shopify/purple-gemstone-necklace_925x_6b8f5057-f8ce-4401-add9-316a65d2feda.jpg
-id: ee1134f5-293f-4e42-80e7-17526460a195
+  - shopify/blue-gemstone-pendant_925x_552832f1-1be8-472c-9ac4-37a9c925954d.jpg
+  - shopify/gemstone-necklace_925x_0f08c821-5b90-41c6-804b-3020e2923d1a.jpg
+  - shopify/womens-necklace_925x_129b8b32-ad18-4483-b6f4-541bf0669a30.jpg
+  - shopify/purple-gemstone-necklace_925x_2039020c-fa90-416b-a34d-ca78c5e57342.jpg
 ---
 <p>Gemstone pendant, housed in sterling silver, with sterling silver chain.</p>
 <ul>

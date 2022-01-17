@@ -1,17 +1,25 @@
 ---
-product_id: 6559459475644
-published_at: '2021-03-05 22:14:00'
+id: 39d8c55e-1646-4a98-8e81-a623e7ae62fa
+blueprint: product
+product_id: 7371943510204
+published: true
+published_at: '2022-01-17 17:32:47'
 title: 'Choker with Gold Pendant'
-vendor: 'Company 123'
-type: Necklace
-tags: Pendant
-featured_image: Shopify/choker-with-gold-pendant_925x_9ed39659-ed63-4269-9cdc-b1d713607b17.jpg
+vendor:
+  - company-123
+type:
+  - necklace
+tags:
+  - choker
+  - gold
+  - leather
+  - pendant
+featured_image: shopify/choker-with-gold-pendant_925x_2a086a19-5567-42d4-a840-106d28e255d6.jpg
 gallery:
-  - Shopify/choker-with-gold-pendant_925x_9ed39659-ed63-4269-9cdc-b1d713607b17.jpg
-  - Shopify/choker-pendant-closeup_925x_4f159b50-dd67-4c7d-8b40-b066c9f5bb69.jpg
-id: dde6e358-5fb8-4a03-921f-559c291f9a89
+  - shopify/choker-with-gold-pendant_925x_2a086a19-5567-42d4-a840-106d28e255d6.jpg
+  - shopify/choker-pendant-closeup_925x_622300b8-ca1b-448b-bef2-ff86ef116f72.jpg
 ---
-Black cord choker with gold pendant. Beautifully died black leather shapes a choker necklace with findings of 14k yellow gold, displaying gold pendant in a gorgeous balance of dark and light, delicate and strong. <ul>
+Black cord choker with gold pendant. Beautifully died black leather shapes a choker necklace with findings of 14k yellow gold, displaying gold pendant in a gorgeous balance of dark and light, delicate and strong. <ul>
 <li>14k yellow gold</li>
 <li>Leather</li>
 <li>Length, 12" with 2.5" extender</li>

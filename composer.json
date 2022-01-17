@@ -13,7 +13,7 @@
         "laravel/horizon": "^5.7",
         "laravel/tinker": "^2.0",
         "spatie/laravel-ray": "^1.14",
-        "statamic/cms": "3.0.*"
+        "statamic/cms": "3.2.*"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",
@@ -48,6 +48,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
+        "pre-update-cmd": [
+            "Statamic\\Console\\Composer\\Scripts::preUpdateCmd"
+        ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi",

@@ -1,13 +1,20 @@
 ---
-product_id: 6559459147964
-published_at: '2021-03-05 22:13:48'
+id: 8df860d9-55eb-4e18-a73c-020a815f2f27
+blueprint: product
+product_id: 7371943346364
+published: true
+published_at: '2022-01-17 17:32:38'
 title: 'Bangle Bracelet'
-vendor: 'Company 123'
-type: Bracelet
-tags: Gold
-featured_image: Shopify/bangle-bracelet-with-jewels_925x_e01e0775-2587-4bea-910f-95a48c8466fc.jpg
+vendor:
+  - company-123
+type:
+  - bracelet
+tags:
+  - diamond
+  - gem
+  - gold
+featured_image: shopify/bangle-bracelet-with-jewels_925x_e7868dff-6c81-409b-98f9-d8b1f13f23ae.jpg
 gallery:
-  - Shopify/bangle-bracelet-with-jewels_925x_e01e0775-2587-4bea-910f-95a48c8466fc.jpg
-id: 45fcf4b5-f3f0-4ff2-b992-7504d016622f
+  - shopify/bangle-bracelet-with-jewels_925x_e7868dff-6c81-409b-98f9-d8b1f13f23ae.jpg
 ---
 <p>Gold bangle bracelet with studded jewels.</p>

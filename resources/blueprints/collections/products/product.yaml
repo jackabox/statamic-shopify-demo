@@ -68,22 +68,22 @@ sections:
       -
         handle: tags
         field:
-          mode: select
+          type: terms
           taxonomies:
             - product_tags
           display: Tags
-          type: terms
+          mode: select
           icon: taxonomy
           width: 33
           listable: hidden
       -
         handle: type
         field:
-          mode: select
+          type: terms
           taxonomies:
             - product_type
           display: Type
-          type: terms
+          mode: select
           icon: taxonomy
           width: 33
           listable: hidden
@@ -94,10 +94,11 @@ sections:
         handle: slug
         field:
           type: slug
-          required: true
           localizable: true
+          required: true
           validate:
             - required
+            - 'unique_entry_value:{collection},{id},{site}'
           display: Slug
           listable: hidden
           generate: true

@@ -1,16 +1,23 @@
 ---
-product_id: 6559460065468
-published_at: '2021-03-05 22:14:19'
+id: ed582353-cf72-43fb-b2ea-b8dcd71a4e42
+blueprint: product
+product_id: 7371944165564
+published: true
+published_at: '2022-01-17 17:33:14'
 title: 'Origami Crane Necklace'
-vendor: 'Sterling Ltd'
-type: Necklace
-tags: Silver
-featured_image: Shopify/origami-crane-necklace-gold_925x_c940972b-5b66-4a99-bac8-bb984b4a06e4.jpg
+vendor:
+  - sterling-ltd
+type:
+  - necklace
+tags:
+  - crane
+  - origami
+  - silver
+featured_image: shopify/origami-crane-necklace-gold_925x_174bee86-b308-4d54-a8fd-a1df5f6c2ceb.jpg
 gallery:
-  - Shopify/origami-crane-necklace-gold_925x_c940972b-5b66-4a99-bac8-bb984b4a06e4.jpg
-  - Shopify/silver-origami-necklace_925x_55c63ff1-778c-4116-9aa2-48ae814a93d8.jpg
-  - Shopify/origami-crane-necklace_925x_bdca9fc3-f9df-4afb-a701-c0139f70f558.jpg
-  - Shopify/womens-green-turtleneck_925x_8fb4dd9a-6afa-4521-85e6-c25136676dfc.jpg
-id: a0998f07-803a-461f-95a2-a8555d3daa7a
+  - shopify/origami-crane-necklace-gold_925x_174bee86-b308-4d54-a8fd-a1df5f6c2ceb.jpg
+  - shopify/silver-origami-necklace_925x_3986def4-0b7f-45ae-9123-af401826da1d.jpg
+  - shopify/origami-crane-necklace_925x_5fc1950f-fa1b-4644-b39f-1be0a26355eb.jpg
+  - shopify/womens-green-turtleneck_925x_660a5f01-d1fb-4f2d-bd96-36bd09745d35.jpg
 ---
 <p>Sterling silver origami crane necklace.</p>

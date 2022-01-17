@@ -1,14 +1,22 @@
 ---
-product_id: 6559459606716
-published_at: '2021-03-05 22:14:07'
+id: c713948e-1768-41be-905b-a86b5342e9ef
+blueprint: product
+product_id: 7371943706812
+published: true
+published_at: '2022-01-17 17:32:53'
 title: 'Dreamcatcher Pendant Necklace'
-vendor: 'Sterling Ltd'
-type: Necklace
-tags: Turquoise
-featured_image: Shopify/dreamcatcher-pendant-necklace_925x_0218e918-01f4-46af-9597-464c154dd37b.jpg
+vendor:
+  - sterling-ltd
+type:
+  - necklace
+tags:
+  - dreamcatcher
+  - pendant
+  - silver
+  - turquoise
+featured_image: shopify/dreamcatcher-pendant-necklace_925x_79775e0f-3d23-4c16-9fc1-48766a7e5a7d.jpg
 gallery:
-  - Shopify/dreamcatcher-pendant-necklace_925x_0218e918-01f4-46af-9597-464c154dd37b.jpg
-  - Shopify/gold-dream-catcher-necklace_925x_6c9464b6-02bf-4d53-ba31-2aae56d20e34.jpg
-id: 35d0c704-03b6-4cf7-ae57-69de2ec115e5
+  - shopify/dreamcatcher-pendant-necklace_925x_79775e0f-3d23-4c16-9fc1-48766a7e5a7d.jpg
+  - shopify/gold-dream-catcher-necklace_925x_f05bfc70-2563-41b2-92b3-2d7379c1975c.jpg
 ---
 <p>Turquoise beaded dream catcher necklace. Silver feathers adorn this beautiful dream catcher, which move and twinkle as you walk.</p>

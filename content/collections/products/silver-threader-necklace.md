@@ -1,14 +1,19 @@
 ---
-product_id: 6559460196540
-published_at: '2021-03-05 22:14:25'
+id: 542400fa-1d1c-4b80-aeca-1966b556a3bc
+blueprint: product
+product_id: 7371944394940
+published: true
+published_at: '2022-01-17 17:33:21'
 title: 'Silver Threader Necklace'
-vendor: 'Sterling Ltd'
-type: Necklace
-tags: Silver
-featured_image: Shopify/silver-threader-necklace_925x_a8d91e6d-80dd-4e95-aa73-03851a7b9b51.jpg
+vendor:
+  - sterling-ltd
+type:
+  - necklace
+tags:
+  - silver
+featured_image: shopify/silver-threader-necklace_925x_dd108e74-b041-4608-b5a4-cef9a588c5f7.jpg
 gallery:
-  - Shopify/silver-threader-necklace_925x_a8d91e6d-80dd-4e95-aa73-03851a7b9b51.jpg
-  - Shopify/threader-necklace-closeup_925x_367a6f76-df55-4cb5-b9c1-39f5d711c58f.jpg
-id: 280d0ac2-68d7-42cb-88d9-52d67d32269a
+  - shopify/silver-threader-necklace_925x_dd108e74-b041-4608-b5a4-cef9a588c5f7.jpg
+  - shopify/threader-necklace-closeup_925x_7eac3663-73e1-4712-8eec-e7cd5064d050.jpg
 ---
 <p>Sterling silver chain thread through circle necklace.</p>

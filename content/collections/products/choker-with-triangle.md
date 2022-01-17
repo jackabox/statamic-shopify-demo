@@ -1,13 +1,20 @@
 ---
-product_id: 6559459508412
-published_at: '2021-03-05 22:14:03'
+id: 18f4e0b9-8f4c-480e-a91a-62cb727f73ec
+blueprint: product
+product_id: 7371943608508
+published: true
+published_at: '2022-01-17 17:32:49'
 title: 'Choker with Triangle'
-vendor: 'Company 123'
-type: Necklace
-tags: Triangle
-featured_image: Shopify/choker-with-triangle_925x_c53c1afe-209f-4ae7-8493-31fff5e1efb6.jpg
+vendor:
+  - company-123
+type:
+  - necklace
+tags:
+  - leather
+  - silver
+  - triangle
+featured_image: shopify/choker-with-triangle_925x_16b9a738-b496-48ff-ba14-b2c68c52fa42.jpg
 gallery:
-  - Shopify/choker-with-triangle_925x_c53c1afe-209f-4ae7-8493-31fff5e1efb6.jpg
-id: 490e5fc3-4ffc-4275-9605-ffc464e7c9d4
+  - shopify/choker-with-triangle_925x_16b9a738-b496-48ff-ba14-b2c68c52fa42.jpg
 ---
 <p>Black choker with silver triangle pendant.</p>

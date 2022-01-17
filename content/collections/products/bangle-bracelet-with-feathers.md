@@ -1,13 +1,18 @@
 ---
-product_id: 6559459180732
-published_at: '2021-03-05 22:13:50'
+id: 1580ab56-1f62-4009-a95d-f140e33e7cbe
+blueprint: product
+product_id: 7371943379132
+published: true
+published_at: '2022-01-17 17:32:40'
 title: 'Boho Bangle Bracelet'
-vendor: 'Company 123'
-type: Bracelet
-tags: Gold
-featured_image: Shopify/bangle-bracelet-with-feathers_925x_cc735827-68bf-477c-8bb8-8dc46e8a998b.jpg
+vendor:
+  - company-123
+type:
+  - bracelet
+tags:
+  - gold
+featured_image: shopify/bangle-bracelet-with-feathers_925x_e025dd4e-8e01-48ad-bcff-baf4dce83b2d.jpg
 gallery:
-  - Shopify/bangle-bracelet-with-feathers_925x_cc735827-68bf-477c-8bb8-8dc46e8a998b.jpg
-id: b47abf58-2426-46dd-aaf9-b95ca0057c91
+  - shopify/bangle-bracelet-with-feathers_925x_e025dd4e-8e01-48ad-bcff-baf4dce83b2d.jpg
 ---
 <p>Gold boho bangle bracelet with multicolor tassels.</p>

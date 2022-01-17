@@ -10707,10 +10707,32 @@ module.exports = Client;
 
 /***/ }),
 
-/***/ "./resources/js/shopify/cart.js":
-/*!**************************************!*\
-  !*** ./resources/js/shopify/cart.js ***!
-  \**************************************/
+/***/ "./resources/js/site.js":
+/*!******************************!*\
+  !*** ./resources/js/site.js ***!
+  \******************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _vendor_shopify_checkout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./vendor/shopify/checkout */ "./resources/js/vendor/shopify/checkout.js");
+/* harmony import */ var _vendor_shopify_cart__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./vendor/shopify/cart */ "./resources/js/vendor/shopify/cart.js");
+/* harmony import */ var _vendor_shopify_products__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./vendor/shopify/products */ "./resources/js/vendor/shopify/products.js");
+
+
+
+new _vendor_shopify_checkout__WEBPACK_IMPORTED_MODULE_0__["default"]();
+new _vendor_shopify_cart__WEBPACK_IMPORTED_MODULE_1__["setCartCount"]();
+new _vendor_shopify_products__WEBPACK_IMPORTED_MODULE_2__["default"]();
+new _vendor_shopify_cart__WEBPACK_IMPORTED_MODULE_1__["default"]();
+
+/***/ }),
+
+/***/ "./resources/js/vendor/shopify/cart.js":
+/*!*********************************************!*\
+  !*** ./resources/js/vendor/shopify/cart.js ***!
+  \*********************************************/
 /*! exports provided: showCartOverview, hideCartOverview, initCartActions, setCartSubtotal, setCartCount, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10723,9 +10745,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setCartCount", function() { return setCartCount; });
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./client */ "./resources/js/shopify/client.js");
-/* harmony import */ var _checkout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./checkout */ "./resources/js/shopify/checkout.js");
-/* harmony import */ var _helpers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./helpers */ "./resources/js/shopify/helpers.js");
+/* harmony import */ var _client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./client */ "./resources/js/vendor/shopify/client.js");
+/* harmony import */ var _checkout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./checkout */ "./resources/js/vendor/shopify/checkout.js");
+/* harmony import */ var _helpers__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./helpers */ "./resources/js/vendor/shopify/helpers.js");
 
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
@@ -10947,17 +10969,17 @@ var cart = function cart() {
 
 /***/ }),
 
-/***/ "./resources/js/shopify/checkout.js":
-/*!******************************************!*\
-  !*** ./resources/js/shopify/checkout.js ***!
-  \******************************************/
+/***/ "./resources/js/vendor/shopify/checkout.js":
+/*!*************************************************!*\
+  !*** ./resources/js/vendor/shopify/checkout.js ***!
+  \*************************************************/
 /*! exports provided: checkoutId, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "checkoutId", function() { return checkoutId; });
-/* harmony import */ var _client_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./client.js */ "./resources/js/shopify/client.js");
+/* harmony import */ var _client_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./client.js */ "./resources/js/vendor/shopify/client.js");
 
 /**
  * Create the instance of the checkout for the user.
@@ -10972,10 +10994,11 @@ var checkout = function checkout() {
   var shopifyCheckout = localStorage.getItem('statamic.shopify.cart.id'); // If not, let's create a new checkout for the user and set it as the ID.
 
   if (!shopifyCheckout) {
-    _client_js__WEBPACK_IMPORTED_MODULE_0__["default"].checkout.create().then(function (checkout) {
-      localStorage.setItem('statamic.shopify.cart.id', checkout.id);
-      shopifyCheckout = checkout.id;
-    });
+    var _client$checkout$crea = _client_js__WEBPACK_IMPORTED_MODULE_0__["default"].checkout.create(),
+        id = _client$checkout$crea.id;
+
+    localStorage.setItem('statamic.shopify.cart.id', id);
+    shopifyCheckout = id;
   }
 
   return shopifyCheckout;
@@ -10987,10 +11010,10 @@ var checkoutId = checkout();
 
 /***/ }),
 
-/***/ "./resources/js/shopify/client.js":
-/*!****************************************!*\
-  !*** ./resources/js/shopify/client.js ***!
-  \****************************************/
+/***/ "./resources/js/vendor/shopify/client.js":
+/*!***********************************************!*\
+  !*** ./resources/js/vendor/shopify/client.js ***!
+  \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11012,10 +11035,10 @@ var client = shopify_buy__WEBPACK_IMPORTED_MODULE_0___default.a.buildClient({
 
 /***/ }),
 
-/***/ "./resources/js/shopify/helpers.js":
-/*!*****************************************!*\
-  !*** ./resources/js/shopify/helpers.js ***!
-  \*****************************************/
+/***/ "./resources/js/vendor/shopify/helpers.js":
+/*!************************************************!*\
+  !*** ./resources/js/vendor/shopify/helpers.js ***!
+  \************************************************/
 /*! exports provided: htmlToElements, bannerMessage, formatCurrency, debounce */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11106,20 +11129,20 @@ var debounce = function debounce(callback, wait) {
 
 /***/ }),
 
-/***/ "./resources/js/shopify/products.js":
-/*!******************************************!*\
-  !*** ./resources/js/shopify/products.js ***!
-  \******************************************/
+/***/ "./resources/js/vendor/shopify/products.js":
+/*!*************************************************!*\
+  !*** ./resources/js/vendor/shopify/products.js ***!
+  \*************************************************/
 /*! exports provided: handleProductFormSubmit, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "handleProductFormSubmit", function() { return handleProductFormSubmit; });
-/* harmony import */ var _client__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./client */ "./resources/js/shopify/client.js");
-/* harmony import */ var _helpers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./helpers */ "./resources/js/shopify/helpers.js");
-/* harmony import */ var _cart__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./cart */ "./resources/js/shopify/cart.js");
-/* harmony import */ var _checkout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./checkout */ "./resources/js/shopify/checkout.js");
+/* harmony import */ var _client__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./client */ "./resources/js/vendor/shopify/client.js");
+/* harmony import */ var _helpers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./helpers */ "./resources/js/vendor/shopify/helpers.js");
+/* harmony import */ var _cart__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./cart */ "./resources/js/vendor/shopify/cart.js");
+/* harmony import */ var _checkout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./checkout */ "./resources/js/vendor/shopify/checkout.js");
 
 
 
@@ -11162,6 +11185,7 @@ var handleProductFormSubmit = function handleProductFormSubmit(form) {
     variantId: variantId.value,
     quantity: quantity != null ? parseInt(quantity.value) : 1
   }];
+  console.log(lineItemsToAdd);
   _client__WEBPACK_IMPORTED_MODULE_0__["default"].checkout.addLineItems(_checkout__WEBPACK_IMPORTED_MODULE_3__["checkoutId"], lineItemsToAdd).then(function (checkout) {
     var elements = Object(_helpers__WEBPACK_IMPORTED_MODULE_1__["htmlToElements"])('<div class="text-center"><span class="mr-4">Product added to the basket.</span><a href="/cart" class="inline-flex items-center"><span>Go to cart</span> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="ml-2 w-4"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></a></div>');
     Object(_helpers__WEBPACK_IMPORTED_MODULE_1__["bannerMessage"])(elements, true);
@@ -11172,28 +11196,6 @@ var handleProductFormSubmit = function handleProductFormSubmit(form) {
 
 
 /* harmony default export */ __webpack_exports__["default"] = (productForm);
-
-/***/ }),
-
-/***/ "./resources/js/site.js":
-/*!******************************!*\
-  !*** ./resources/js/site.js ***!
-  \******************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _shopify_checkout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./shopify/checkout */ "./resources/js/shopify/checkout.js");
-/* harmony import */ var _shopify_cart__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shopify/cart */ "./resources/js/shopify/cart.js");
-/* harmony import */ var _shopify_products__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./shopify/products */ "./resources/js/shopify/products.js");
-
-
-
-new _shopify_checkout__WEBPACK_IMPORTED_MODULE_0__["default"]();
-new _shopify_cart__WEBPACK_IMPORTED_MODULE_1__["setCartCount"]();
-new _shopify_products__WEBPACK_IMPORTED_MODULE_2__["default"]();
-new _shopify_cart__WEBPACK_IMPORTED_MODULE_1__["default"]();
 
 /***/ }),
 

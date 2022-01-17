@@ -1,4 +1,3 @@
-hide: true
 title: Variant
 sections:
   main:
@@ -15,12 +14,13 @@ sections:
         handle: slug
         field:
           type: disabled_text
-          required: true
           localizable: true
+          required: true
           icon: disabled_text
           display: 'Variant ID'
           validate:
             - required
+            - 'unique_entry_value:{collection},{id},{site}'
           width: 50
       -
         handle: sku

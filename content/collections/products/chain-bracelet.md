@@ -1,14 +1,23 @@
 ---
-product_id: 6559458984124
-published_at: '2021-03-05 22:13:42'
+id: c3c024fa-fbc6-4db4-bcab-6fce29dd157e
+blueprint: product
+product_id: 7371943215292
+published: true
+published_at: '2022-01-17 17:32:32'
 title: '7 Shakra Bracelet'
-vendor: 'Company 123'
-type: Bracelet
-tags: Beads
-featured_image: Shopify/7-chakra-bracelet_925x_6069a9b4-be87-4fcc-9f21-1d12277045ab.jpg
+vendor:
+  - company-123
+type:
+  - bracelet
+tags:
+  - beads
+options:
+  option1: Color
+featured_image: shopify/7-chakra-bracelet_925x_ca5331ce-d8db-4d1e-bc1d-4506717294ea.jpg
 gallery:
-  - Shopify/7-chakra-bracelet_925x_6069a9b4-be87-4fcc-9f21-1d12277045ab.jpg
-  - Shopify/navy-blue-chakra-bracelet_925x_9b26de84-e929-4135-8396-af7654313061.jpg
-id: bdcfd8dc-595d-42e3-aaca-4cc817b65d74
+  - shopify/7-chakra-bracelet_925x_ca5331ce-d8db-4d1e-bc1d-4506717294ea.jpg
+  - shopify/navy-blue-chakra-bracelet_925x_6f77cec7-fc15-4bb5-9bf1-d37460b08a89.jpg
+collections:
+  - frontpage
 ---
 <p>7 chakra bracelet, in blue or black.</p>
