@@ -38,6 +38,13 @@ sections:
           type: bard
           icon: bard
           listable: hidden
+      - handle: options
+        field:
+          mode: dynamic
+          display: Options
+          type: array
+          icon: array
+          listable: hidden
       -
         handle: variants
         field:
@@ -64,29 +71,6 @@ sections:
             - vendor
           display: Vendor
           mode: select
-          width: 33
-      -
-        handle: tags
-        field:
-          type: terms
-          taxonomies:
-            - product_tags
-          display: Tags
-          mode: select
-          icon: taxonomy
-          width: 33
-          listable: hidden
-      -
-        handle: type
-        field:
-          type: terms
-          taxonomies:
-            - product_type
-          display: Type
-          mode: select
-          icon: taxonomy
-          width: 33
-          listable: hidden
   sidebar:
     display: Sidebar
     fields:
@@ -94,11 +78,10 @@ sections:
         handle: slug
         field:
           type: slug
-          localizable: true
           required: true
+          localizable: true
           validate:
             - required
-            - 'unique_entry_value:{collection},{id},{site}'
           display: Slug
           listable: hidden
           generate: true
