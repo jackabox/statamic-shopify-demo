@@ -10979,7 +10979,15 @@ var cart = function cart() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "checkoutId", function() { return checkoutId; });
-/* harmony import */ var _client_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./client.js */ "./resources/js/vendor/shopify/client.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _client_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./client.js */ "./resources/js/vendor/shopify/client.js");
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
 
 /**
  * Create the instance of the checkout for the user.
@@ -10989,22 +10997,48 @@ __webpack_require__.r(__webpack_exports__);
  * @returns {object}
  */
 
-var checkout = function checkout() {
-  // Check if we have found anything in local storage.
-  var shopifyCheckout = localStorage.getItem('statamic.shopify.cart.id'); // If not, let's create a new checkout for the user and set it as the ID.
+var checkout = /*#__PURE__*/function () {
+  var _ref = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+    var shopifyCheckout, _yield$client$checkou, id;
 
-  if (!shopifyCheckout) {
-    var _client$checkout$crea = _client_js__WEBPACK_IMPORTED_MODULE_0__["default"].checkout.create(),
-        id = _client$checkout$crea.id;
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            // Check if we have found anything in local storage.
+            shopifyCheckout = localStorage.getItem('statamic.shopify.cart.id'); // If not, let's create a new checkout for the user and set it as the ID.
 
-    localStorage.setItem('statamic.shopify.cart.id', id);
-    shopifyCheckout = id;
-  }
+            if (!(!shopifyCheckout || shopifyCheckout === 'undefined')) {
+              _context.next = 8;
+              break;
+            }
 
-  return shopifyCheckout;
-};
+            _context.next = 4;
+            return _client_js__WEBPACK_IMPORTED_MODULE_1__["default"].checkout.create();
 
-var checkoutId = checkout();
+          case 4:
+            _yield$client$checkou = _context.sent;
+            id = _yield$client$checkou.id;
+            localStorage.setItem('statamic.shopify.cart.id', id);
+            shopifyCheckout = id;
+
+          case 8:
+            return _context.abrupt("return", shopifyCheckout);
+
+          case 9:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee);
+  }));
+
+  return function checkout() {
+    return _ref.apply(this, arguments);
+  };
+}();
+
+var checkoutId = localStorage.getItem('statamic.shopify.cart.id');
 
 /* harmony default export */ __webpack_exports__["default"] = (checkout);
 
